@@ -1,0 +1,2524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8ddbcb6c5fef4223ae5ee48c0fc6ab8f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="-análisis-de-datos-con-pandas-numpy-y-matplotlib"
+class="cell markdown">
+<h1>📊 Análisis de Datos con Pandas, Numpy y Matplotlib</h1>
+<p>Este notebook contiene ejercicios prácticos para aprender a manejar
+datos, realizar análisis estadístico y visualizar información usando
+Python.</p>
+<p>💡 <strong>Objetivo</strong>: Comprender las herramientas
+fundamentales para el análisis de datos en ciencia de datos mediante
+ejemplos prácticos.</p>
+<hr />
+</section>
+<section id="-consideraciones-sobre-las-variables-del-dataset"
+class="cell markdown">
+<h1>📊 Consideraciones sobre las Variables del Dataset</h1>
+<p>Este dataset que veremos hoy contiene información de pacientes con
+características médicas que pueden influir en la <strong>predicción de
+diabetes</strong>. A continuación, se describen cada una de las
+variables, su importancia y consideraciones a tomar en cuenta para su
+análisis.</p>
+<hr />
+<h2 id="-1-pregnancies-número-de-embarazos">🔹 <strong>1. Pregnancies
+(Número de Embarazos)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Indica la cantidad de veces que una
+paciente ha estado embarazada.</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico entero</strong> (0,
+1, 2, …).</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Solo aplica a <strong>mujeres</strong>, por lo que en un dataset
+mixto podría ser irrelevante.</li>
+<li>Un mayor número de embarazos puede estar asociado con un mayor
+riesgo de diabetes gestacional.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-2-glucose-glucosa-en-sangre">🔹 <strong>2. Glucose (Glucosa en
+sangre)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Nivel de glucosa en plasma (mg/dL)
+tras una prueba de tolerancia a la glucosa en ayuno.</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico
+continuo</strong>.</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Es una de las <strong>variables más relevantes</strong> para
+detectar diabetes.</li>
+<li>Valores altos (&gt;125 mg/dL) pueden indicar <strong>diabetes o
+prediabetes</strong>.</li>
+<li>Si hay valores de <strong>0 o extremadamente bajos</strong>, podrían
+representar <strong>datos faltantes</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-3-bloodpressure-presión-arterial">🔹 <strong>3. BloodPressure
+(Presión Arterial)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Medición de la presión arterial
+diastólica (mmHg).</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico
+continuo</strong>.</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Valores <strong>muy bajos</strong> (cercanos a 0) pueden representar
+datos faltantes o errores.</li>
+<li>La <strong>hipertensión</strong> es un factor de riesgo común en la
+diabetes tipo 2.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-4-skinthickness-grosor-del-pliegue-cutáneo">🔹 <strong>4.
+SkinThickness (Grosor del Pliegue Cutáneo)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Grosor de los pliegues cutáneos en el
+tríceps (mm), usado como estimación de la grasa corporal.</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico
+continuo</strong>.</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Puede ayudar a estimar la <strong>obesidad</strong>, que es un
+factor de riesgo para la diabetes.</li>
+<li>Valores <strong>cercanos a 0</strong> podrían ser datos
+faltantes.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-5-insulin-nivel-de-insulina-en-sangre">🔹 <strong>5. Insulin
+(Nivel de Insulina en Sangre)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Cantidad de insulina en suero después
+de una prueba de tolerancia a la glucosa (mu U/ml).</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico
+continuo</strong>.</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Es clave para entender la <strong>resistencia a la
+insulina</strong>.</li>
+<li>Valores <strong>muy bajos o iguales a 0</strong> pueden indicar que
+faltan datos.</li>
+<li>La insulina anormal puede indicar <strong>diabetes tipo 1 o tipo
+2</strong>.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-6-bmi-índice-de-masa-corporal---imc">🔹 <strong>6. BMI (Índice
+de Masa Corporal - IMC)</strong></h2>
+<ul>
+<li><p><strong>Descripción:</strong> Relación entre peso y altura,
+calculado como:</p>
+<p><span class="math display">$$
+IMC = \frac{\text{Peso (kg)}}{\text{Altura (m)}^2}
+$$</span></p></li>
+<li><p><strong>Tipo de dato:</strong> <strong>Numérico
+continuo</strong>.</p></li>
+<li><p><strong>Consideraciones:</strong></p>
+<ul>
+<li>Un <strong>IMC alto (&gt;30)</strong> es un fuerte predictor de
+diabetes tipo 2.</li>
+<li>Si hay valores <strong>cercanos a 0 o irreales</strong>, podrían ser
+datos erróneos.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-7-diabetespedigreefunction-historial-familiar-de-diabetes">🔹
+<strong>7. DiabetesPedigreeFunction (Historial Familiar de
+Diabetes)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Mide la <strong>probabilidad
+genética</strong> de desarrollar diabetes basada en antecedentes
+familiares.</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico continuo</strong>
+(valor entre 0 y 2.5 aprox.).</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li>Un <strong>valor alto</strong> indica mayor <strong>riesgo
+hereditario</strong> de diabetes.</li>
+<li>Un <strong>valor bajo</strong> sugiere menor riesgo pero no excluye
+la posibilidad de desarrollar la enfermedad.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-8-age-edad">🔹 <strong>8. Age (Edad)</strong></h2>
+<ul>
+<li><strong>Descripción:</strong> Edad del paciente en años.</li>
+<li><strong>Tipo de dato:</strong> <strong>Numérico
+entero</strong>.</li>
+<li><strong>Consideraciones:</strong>
+<ul>
+<li><strong>Personas mayores tienen un mayor riesgo</strong> de
+desarrollar diabetes.</li>
+<li>Si hay valores <strong>muy bajos (menores de 10 años)</strong>
+pueden ser <strong>errores en los datos</strong>.</li>
+<li>Se puede agrupar en <strong>rangos de edad</strong> para analizar
+tendencias.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-consideraciones-generales-para-el-análisis">🎯
+<strong>Consideraciones Generales para el Análisis</strong></h2>
+<p>✔ <strong>Revisar si hay valores nulos o inusuales (como 0 en glucosa
+o presión arterial).</strong><br />
+✔ <strong>Identificar outliers que puedan afectar la interpretación (por
+ejemplo, valores de insulina extremadamente altos o
+bajos).</strong><br />
+✔ <strong>Estandarizar unidades y escalas antes de aplicar modelos para
+hacer predicciones</strong><br />
+✔ <strong>Usar histogramas y mapas de calor para detectar correlaciones
+y anomalías.</strong></p>
+<p>📊 <strong>Este dataset es ideal para análisis de predicción de
+diabetes y machine learning, pero requiere preprocesamiento adecuado
+para evitar sesgos.</strong> 🚀</p>
+</section>
+<section id="-bloque-1-carga-y-exploración-de-datos"
+class="cell markdown">
+<h2>📂 Bloque 1: Carga y Exploración de Datos</h2>
+<p>En este bloque, aprenderemos a cargar datos desde un archivo CSV
+utilizando <code>pandas</code> y exploraremos su contenido.</p>
+<p><strong>Conceptos clave:</strong></p>
+<ul>
+<li>Lectura de archivos con <code>pandas</code>.</li>
+<li>Exploración de las primeras filas con <code>.head()</code>.</li>
+<li>Identificación de valores nulos con <code>.info()</code>.</li>
+<li>Estadísticas básicas con <code>.describe()</code>.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo CSV en un DataFrame</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;diabetes2.csv&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar las primeras 10 filas</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>148</td>
+      <td>72</td>
+      <td>35</td>
+      <td>0</td>
+      <td>33.6</td>
+      <td>0.627</td>
+      <td>50</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>85</td>
+      <td>66</td>
+      <td>29</td>
+      <td>0</td>
+      <td>26.6</td>
+      <td>0.351</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8</td>
+      <td>183</td>
+      <td>64</td>
+      <td>0</td>
+      <td>0</td>
+      <td>23.3</td>
+      <td>0.672</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>89</td>
+      <td>66</td>
+      <td>23</td>
+      <td>94</td>
+      <td>28.1</td>
+      <td>0.167</td>
+      <td>21</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>137</td>
+      <td>40</td>
+      <td>35</td>
+      <td>168</td>
+      <td>43.1</td>
+      <td>2.288</td>
+      <td>33</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>116</td>
+      <td>74</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.6</td>
+      <td>0.201</td>
+      <td>30</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>3</td>
+      <td>78</td>
+      <td>50</td>
+      <td>32</td>
+      <td>88</td>
+      <td>31.0</td>
+      <td>0.248</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10</td>
+      <td>115</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>35.3</td>
+      <td>0.134</td>
+      <td>29</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2</td>
+      <td>197</td>
+      <td>70</td>
+      <td>45</td>
+      <td>543</td>
+      <td>30.5</td>
+      <td>0.158</td>
+      <td>53</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8</td>
+      <td>125</td>
+      <td>96</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.232</td>
+      <td>54</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar información sobre el DataFrame</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 768 entries, 0 to 767
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               768 non-null    int64  
+ 1   Glucose                   768 non-null    int64  
+ 2   BloodPressure             768 non-null    int64  
+ 3   SkinThickness             768 non-null    int64  
+ 4   Insulin                   768 non-null    int64  
+ 5   BMI                       768 non-null    float64
+ 6   DiabetesPedigreeFunction  768 non-null    float64
+ 7   Age                       768 non-null    int64  
+ 8   Outcome                   768 non-null    int64  
+dtypes: float64(2), int64(7)
+memory usage: 54.1 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar estadísticas descriptivas del DataFrame</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+      <td>768.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>3.845052</td>
+      <td>120.894531</td>
+      <td>69.105469</td>
+      <td>20.536458</td>
+      <td>79.799479</td>
+      <td>31.992578</td>
+      <td>0.471876</td>
+      <td>33.240885</td>
+      <td>0.348958</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>3.369578</td>
+      <td>31.972618</td>
+      <td>19.355807</td>
+      <td>15.952218</td>
+      <td>115.244002</td>
+      <td>7.884160</td>
+      <td>0.331329</td>
+      <td>11.760232</td>
+      <td>0.476951</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.078000</td>
+      <td>21.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>1.000000</td>
+      <td>99.000000</td>
+      <td>62.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>27.300000</td>
+      <td>0.243750</td>
+      <td>24.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>3.000000</td>
+      <td>117.000000</td>
+      <td>72.000000</td>
+      <td>23.000000</td>
+      <td>30.500000</td>
+      <td>32.000000</td>
+      <td>0.372500</td>
+      <td>29.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>6.000000</td>
+      <td>140.250000</td>
+      <td>80.000000</td>
+      <td>32.000000</td>
+      <td>127.250000</td>
+      <td>36.600000</td>
+      <td>0.626250</td>
+      <td>41.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>17.000000</td>
+      <td>199.000000</td>
+      <td>122.000000</td>
+      <td>99.000000</td>
+      <td>846.000000</td>
+      <td>67.100000</td>
+      <td>2.420000</td>
+      <td>81.000000</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section
+id="-interpretación-de-ejemplo-desviación-estándar-de-glucosa-3195-mgdl"
+class="cell markdown">
+<h1>📊 Interpretación de ejemplo: Desviación Estándar de Glucosa: 31.95
+mg/dL</h1>
+<p>La <strong>desviación estándar (σ)</strong> mide la
+<strong>variabilidad</strong> de los valores de glucosa con respecto a
+su <strong>media</strong>. En este caso, la desviación estándar de
+<strong>31.95 mg/dL</strong> indica cuánto se <strong>dispersan los
+niveles de glucosa</strong> en la población analizada.</p>
+<hr />
+<h2 id="-qué-significa-este-valor">🔹 ¿Qué significa este valor?</h2>
+<p>1️⃣ <strong>Una desviación estándar de 31.95 mg/dL significa que, en
+promedio, los valores de glucosa se alejan 31.95 unidades de la
+media.</strong></p>
+<ul>
+<li>Si la <strong>media de glucosa</strong> en el dataset es, por
+ejemplo, <strong>120 mg/dL</strong>, entonces la mayoría de los datos
+estarán <strong>entre 88.05 mg/dL y 151.95 mg/dL</strong> (restando la
+desviación para 88, sumandola para 151).</li>
+</ul>
+<p>2️⃣ <strong>Indica que hay una variabilidad considerable en los
+valores de glucosa.</strong></p>
+<ul>
+<li>No todos los pacientes tienen niveles de glucosa cercanos a la
+media.<br />
+</li>
+<li>Existen algunos valores <strong>muy altos o muy bajos</strong> que
+pueden estar generando esta dispersión.</li>
+</ul>
+<hr />
+</section>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar valores nulos en cada columna</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>Pregnancies                 0
+Glucose                     0
+BloodPressure               0
+SkinThickness               0
+Insulin                     0
+BMI                         0
+DiabetesPedigreeFunction    0
+Age                         0
+Outcome                     0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtener el número de filas y columnas</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>(768, 9)</code></pre>
+</div>
+</div>
+<section
+id="será-suficiente-saber-que-no-tiene-nulos-para-decir-que-los-datos-nos-sirven"
+class="cell markdown">
+<h1>¿Será suficiente saber que no tiene nulos para decir que los datos
+nos sirven?</h1>
+<p>La respuesta es no. Muchas ocasiones las personas que toman los datos
+dejan vacías ciertas columnas o les ponen valores como 0. Exploremos
+entonces la opción de que tengan 0. Para esto usaremos 2 librerías que
+se utilizarán mucho en el curso</p>
+<ul>
+<li><strong><code>matplotlib.pyplot (plt)</code></strong> es una
+librería de visualización en Python que permite crear gráficos
+estáticos, animados e interactivos, como líneas, barras e
+histogramas.<br />
+</li>
+<li><strong><code>seaborn (sns)</code></strong> es una librería basada
+en <code>matplotlib</code> que facilita la creación de gráficos
+estadísticos con estilos mejorados y soporte para visualización de datos
+categóricos y correlaciones.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>(df<span class="op">==</span><span class="dv">0</span>).head(<span class="dv">15</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>pip install seaborn </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>^C
+Note: you may need to restart the kernel to use updated packages.
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+[notice] A new release of pip is available: 24.3.1 -&gt; 25.0
+[notice] To update, run: python.exe -m pip install --upgrade pip
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Collecting seaborn
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from seaborn) (2.2.2)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from seaborn) (2.2.3)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from seaborn) (3.10.0)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.3.1)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.55.5)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.8)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (24.2)
+Requirement already satisfied: pillow&gt;=8 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (11.1.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.2.1)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.2)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2025.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\ing. diego\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.17.0)
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+Installing collected packages: seaborn
+Successfully installed seaborn-0.13.2
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualización de zeros</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">18</span>,<span class="dv">12</span>))</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualizing Zeros&quot;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>sns.heatmap(df<span class="op">==</span><span class="dv">0</span>, cbar<span class="op">=</span><span class="va">False</span>, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>, yticklabels<span class="op">=</span><span class="va">False</span>)<span class="op">;</span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/f9bc508e9777c3289101b0d2cff79e870721b036.png" /></p>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown">
+<ul>
+<li>Si una persona tiene cero insulina, es diabética, ya que sus células
+no pueden transportar la glucosa desde el torrente sanguíneo hacia el
+interior de las células. Sin embargo, en nuestro conjunto de datos, no
+todos los ceros en la columna Insulin corresponden a un Outcome de 1
+(indicando diabetes). Esto sugiere que muchos ceros en la columna
+Insulin son en realidad valores incorrectos.</li>
+<li>Glucosa tiene algunos zeros random.</li>
+<li>Además, parece que hay muchas filas que tienen ceros en las tres
+columnas: Blood Pressure, Skin Thickness e Insulin. Esto podría indicar
+que al momento de capturar los datos o de tomar las medidas, se omitió
+esa información, lo que dificulta el análisis.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtramos el DataFrame &#39;diabetes&#39; para eliminar filas que contengan valores 0 en las columnas &#39;Glucose&#39;, &#39;BloodPressure&#39; y &#39;BMI&#39;.</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Usamos .loc[] para seleccionar solo las filas que cumplen con la condición.</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># axis=1 indica que la evaluación se debe hacer por fila.</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># All se utiliza para verificar si todas las condiciones en la fila son verdaderas, podría usarse any que sería para indicar que al menos una condición es verdadera</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned <span class="op">=</span> df.loc[</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    (df[[<span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;BMI&#39;</span>]] <span class="op">!=</span> <span class="dv">0</span>).<span class="bu">all</span>(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+      <th>Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>148</td>
+      <td>72</td>
+      <td>35</td>
+      <td>0</td>
+      <td>33.6</td>
+      <td>0.627</td>
+      <td>50</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>85</td>
+      <td>66</td>
+      <td>29</td>
+      <td>0</td>
+      <td>26.6</td>
+      <td>0.351</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>8</td>
+      <td>183</td>
+      <td>64</td>
+      <td>0</td>
+      <td>0</td>
+      <td>23.3</td>
+      <td>0.672</td>
+      <td>32</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>89</td>
+      <td>66</td>
+      <td>23</td>
+      <td>94</td>
+      <td>28.1</td>
+      <td>0.167</td>
+      <td>21</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>137</td>
+      <td>40</td>
+      <td>35</td>
+      <td>168</td>
+      <td>43.1</td>
+      <td>2.288</td>
+      <td>33</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>116</td>
+      <td>74</td>
+      <td>0</td>
+      <td>0</td>
+      <td>25.6</td>
+      <td>0.201</td>
+      <td>30</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>3</td>
+      <td>78</td>
+      <td>50</td>
+      <td>32</td>
+      <td>88</td>
+      <td>31.0</td>
+      <td>0.248</td>
+      <td>26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2</td>
+      <td>197</td>
+      <td>70</td>
+      <td>45</td>
+      <td>543</td>
+      <td>30.5</td>
+      <td>0.158</td>
+      <td>53</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>4</td>
+      <td>110</td>
+      <td>92</td>
+      <td>0</td>
+      <td>0</td>
+      <td>37.6</td>
+      <td>0.191</td>
+      <td>30</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>10</td>
+      <td>168</td>
+      <td>74</td>
+      <td>0</td>
+      <td>0</td>
+      <td>38.0</td>
+      <td>0.537</td>
+      <td>34</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ejemplo usando axis 0</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>(df[[<span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;BMI&#39;</span>]] <span class="op">!=</span> <span class="dv">0</span>).<span class="bu">all</span>(axis<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>Glucose          False
+BloodPressure    False
+BMI              False
+dtype: bool</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ejemplo sin evaluar la fila completa</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>(df[[<span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;BMI&#39;</span>]] <span class="op">!=</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>BMI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>763</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>764</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>765</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>766</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>767</th>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+<p>768 rows × 3 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># axis=1 indica que la evaluación se debe hacer por fila. Y el all, para evaluar que todas las condiciones se cumplanm</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>(df[[<span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;BMI&#39;</span>]] <span class="op">!=</span> <span class="dv">0</span>).<span class="bu">all</span>(axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>0      True
+1      True
+2      True
+3      True
+4      True
+       ... 
+763    True
+764    True
+765    True
+766    True
+767    True
+Length: 768, dtype: bool</code></pre>
+</div>
+</div>
+<section
+id="reemplazar-los-zeros-en-skin-thickness-por-el-promedio-de-la-columna"
+class="cell markdown">
+<h3>Reemplazar los zeros en Skin Thickness por el promedio de la
+columna</h3>
+</section>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizar el promedio</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>promedio_skinthickness <span class="op">=</span> diabetes_cleaned[<span class="st">&#39;SkinThickness&#39;</span>].mean()</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>promedio_skinthickness</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>np.float64(21.443370165745858)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizar los indices de SkinThickness que tienen valor 0</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned.loc[diabetes_cleaned[<span class="st">&#39;SkinThickness&#39;</span>] <span class="op">==</span> <span class="dv">0</span>, <span class="st">&#39;SkinThickness&#39;</span>].head(<span class="dv">20</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<pre><code>2     0
+5     0
+10    0
+11    0
+12    0
+17    0
+21    0
+22    0
+26    0
+29    0
+33    0
+36    0
+41    0
+44    0
+46    0
+58    0
+61    0
+62    0
+64    0
+67    0
+Name: SkinThickness, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reemplazar los indices de SkinThickness que tienen valor 0 por el promedio de la columna</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned.loc[diabetes_cleaned[<span class="st">&#39;SkinThickness&#39;</span>] <span class="op">==</span> <span class="dv">0</span>, <span class="st">&#39;SkinThickness&#39;</span>] <span class="op">=</span> promedio_skinthickness</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\Ing. Diego\AppData\Local\Temp\ipykernel_34932\1006260612.py:2: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value &#39;21.443370165745858&#39; has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  diabetes_cleaned.loc[diabetes_cleaned[&#39;SkinThickness&#39;] == 0, &#39;SkinThickness&#39;] = promedio_skinthickness
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizar los indices de SkinThickness que tienen valor 0</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned.loc[diabetes_cleaned[<span class="st">&#39;SkinThickness&#39;</span>] <span class="op">==</span> <span class="dv">0</span>, <span class="st">&#39;SkinThickness&#39;</span>].head(<span class="dv">20</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>Series([], Name: SkinThickness, dtype: float64)</code></pre>
+</div>
+</div>
+<section id="-bloque-2-estadística-descriptiva" class="cell markdown">
+<h2>📊 Bloque 2: Estadística Descriptiva</h2>
+<p>En este bloque, exploraremos estadísticas básicas usando
+<code>numpy</code> y <code>pandas</code>.</p>
+<p><strong>Conceptos clave:</strong></p>
+<ul>
+<li>Cálculo de media, mediana y moda.</li>
+<li>Identificación de valores atípicos con desviación estándar.</li>
+<li>Cálculo de correlaciones entre variables.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular la media y mediana de la glucosa</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>media_glucosa <span class="op">=</span> np.mean(df[<span class="st">&#39;Glucose&#39;</span>])</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>mediana_glucosa <span class="op">=</span> np.median(df[<span class="st">&#39;Glucose&#39;</span>])</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Media de Glucosa: </span><span class="sc">{</span>media_glucosa<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mediana de Glucosa: </span><span class="sc">{</span>mediana_glucosa<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Media de Glucosa: 120.89453125
+Mediana de Glucosa: 117.0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular la desviación estándar de la glucosa</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>std_glucosa <span class="op">=</span> np.std(df[<span class="st">&#39;Glucose&#39;</span>])</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Desviación Estándar de Glucosa: </span><span class="sc">{</span>std_glucosa<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Desviación Estándar de Glucosa: 31.95179590820272
+</code></pre>
+</div>
+</div>
+<section id="-recursos-adicionales" class="cell markdown">
+<h2>🔗 Recursos adicionales</h2>
+<ul>
+<li><a href="https://pandas.pydata.org/docs/">Pandas
+Documentation</a></li>
+<li><a href="https://numpy.org/doc/">NumPy Documentation</a></li>
+<li><a href="https://matplotlib.org/stable/contents.html">Matplotlib
+Documentation</a></li>
+</ul>
+</section>
+<section id="-bloque-3-gráficos-de-barras" class="cell markdown">
+<h2>📊 Bloque 3: Gráficos de Barras</h2>
+<p>Los gráficos de barras permiten comparar valores entre distintas
+categorías.</p>
+<p><strong>Principios básicos:</strong></p>
+<ul>
+<li>Utilizar etiquetas claras en los ejes.</li>
+<li>Definir colores que permitan diferenciar categorías.</li>
+<li>Incluir un título descriptivo.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar el número de casos de diabetes y no diabetes</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>conteo_outcome <span class="op">=</span> df[<span class="st">&#39;Outcome&#39;</span>].value_counts()</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>conteo_outcome</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>Outcome
+0    500
+1    268
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de barras</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>plt.bar([<span class="st">&#39;No Diabetes&#39;</span>, <span class="st">&#39;Diabetes&#39;</span>], conteo_outcome, color<span class="op">=</span>[<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;red&#39;</span>])</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Condición&#39;</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Número de Casos&#39;</span>)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribución de Casos de Diabetes&#39;</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/21bda5f29c3ad274fcc7a14ad2e744c3b065021a.png" /></p>
+</div>
+</div>
+<section
+id="ejemplo-contar-el-número-total-de-personas-con-diferente-cantidad-de-embarazos"
+class="cell markdown">
+<h1>Ejemplo contar el número total de personas con diferente cantidad de
+embarazos</h1>
+</section>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar la cantidad de registros por número de embarazos</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>conteo_embarazos <span class="op">=</span> df[<span class="st">&#39;Pregnancies&#39;</span>].value_counts()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>pd.DataFrame(conteo_embarazos)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+    </tr>
+    <tr>
+      <th>Pregnancies</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>135</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>111</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>68</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>57</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>11</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Número de embarazos</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>conteo_embarazos.index</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>Index([1, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 12, 14, 17, 15], dtype=&#39;int64&#39;, name=&#39;Pregnancies&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cantidad de personas con ese número de embarazos</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>conteo_embarazos.values</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>array([135, 111, 103,  75,  68,  57,  50,  45,  38,  28,  24,  11,  10,
+         9,   2,   1,   1])</code></pre>
+</div>
+</div>
+<section id="️-actividad-crear-un-gráfico-de-barras"
+class="cell markdown">
+<h3>✏️ Actividad: Crear un Gráfico de Barras</h3>
+<p>Crea un gráfico de barras que muestre la cantidad de personas por
+número de embarazos (<code>Pregnancies</code>).</p>
+<ul>
+<li>El tamaño de la figura debe ser 8 x 5</li>
+<li>El plot debe ser de tipo bara e incluir los números de Embarazos en
+la x y la cantidad de personas en la Y</li>
+<li>Debe tener etiqueta en x</li>
+<li>Debe tener etiqueta en y</li>
+<li>Debe tener el titulo 'Distribución de Embarazos en el Dataset'</li>
+<li>Debes incluir una sentencia que lo muestre</li>
+<li>Debes hacer que el gráfico tenga color purpura</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de barras</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el archivo CSV en un DataFrame</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;diabetes2.csv&quot;</span>)</span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>conteo_embarazos <span class="op">=</span> df[<span class="st">&#39;Pregnancies&#39;</span>].value_counts()</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>plt.bar([<span class="st">&#39;Personas Embarazadas&#39;</span>], conteo_embarazos, color<span class="op">=</span>[<span class="st">&#39;purple&#39;</span>])</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Embarazos&#39;</span>)</span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Cantidad de Personas&#39;</span>)</span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribución de Embarazos en el Dataset&#39;</span>)</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/3fb4583b95254c6e59ea44a62342bbc0e66fb8d8.png" /></p>
+</div>
+</div>
+<section id="-bloque-4-gráficos-de-columnas" class="cell markdown">
+<h2>📊 Bloque 4: Gráficos de Columnas</h2>
+<p>Los gráficos de columnas son similares a los de barras, pero con
+orientación vertical.</p>
+<p><strong>Principios básicos:</strong></p>
+<ul>
+<li>Mantener la alineación correcta de las etiquetas.</li>
+<li>No sobrecargar con demasiadas columnas.</li>
+<li>Usar colores que resalten las diferencias.</li>
+</ul>
+</section>
+<section id="ejemplo-agrupar-y-sacar-promedios" class="cell markdown">
+<h3>Ejemplo agrupar y sacar promedios</h3>
+</section>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">&#39;Outcome&#39;</span>).mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Pregnancies</th>
+      <th>Glucose</th>
+      <th>BloodPressure</th>
+      <th>SkinThickness</th>
+      <th>Insulin</th>
+      <th>BMI</th>
+      <th>DiabetesPedigreeFunction</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <th>Outcome</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3.298000</td>
+      <td>109.980000</td>
+      <td>68.184000</td>
+      <td>19.664000</td>
+      <td>68.792000</td>
+      <td>30.304200</td>
+      <td>0.429734</td>
+      <td>31.190000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4.865672</td>
+      <td>141.257463</td>
+      <td>70.824627</td>
+      <td>22.164179</td>
+      <td>100.335821</td>
+      <td>35.142537</td>
+      <td>0.550500</td>
+      <td>37.067164</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="obtener-el-promedio-solo-del-bmi-indice-de-masa-corporal"
+class="cell markdown">
+<h3>Obtener el promedio solo del BMI (Indice de masa corporal)</h3>
+</section>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">&#39;Outcome&#39;</span>)[<span class="st">&#39;BMI&#39;</span>].mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<pre><code>Outcome
+0    30.304200
+1    35.142537
+Name: BMI, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear un gráfico de columnas para visualizar el IMC promedio por condición de diabetes</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">&#39;Outcome&#39;</span>)[<span class="st">&#39;BMI&#39;</span>].mean().plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>, color<span class="op">=</span>[<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;red&#39;</span>], figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Condición&#39;</span>)</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;IMC Promedio&#39;</span>)</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;IMC Promedio por Condición de Diabetes&#39;</span>)</span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/e40376e20c296d2b956c2da3baa615da9de6d39e.png" /></p>
+</div>
+</div>
+<section id="-interpretación-del-imc-según-la-oms"
+class="cell markdown">
+<h2>🔎 Interpretación del IMC según la OMS</h2>
+<p><span class="math display">$$
+IMC = \frac{\text{Peso (kg)}}{\text{Altura (m)}^2}
+$$</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>IMC (kg/m²)</th>
+<th>Clasificación</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>&lt; 18.5</td>
+<td>Bajo peso</td>
+</tr>
+<tr class="even">
+<td>18.5 - 24.9</td>
+<td>Peso normal</td>
+</tr>
+<tr class="odd">
+<td>25 - 29.9</td>
+<td>Sobrepeso</td>
+</tr>
+<tr class="even">
+<td>30 - 34.9</td>
+<td>Obesidad I</td>
+</tr>
+<tr class="odd">
+<td>35 - 39.9</td>
+<td>Obesidad II</td>
+</tr>
+<tr class="even">
+<td>≥ 40</td>
+<td>Obesidad III</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</section>
+<section id="-bloque-5-gráficos-de-dispersión" class="cell markdown">
+<h2>📊 Bloque 5: Gráficos de Dispersión</h2>
+<p>Los gráficos de dispersión permiten analizar la relación entre dos
+variables numéricas.</p>
+<p><strong>Principios básicos:</strong></p>
+<ul>
+<li>Representar cada punto de manera clara.</li>
+<li>Usar colores para diferenciar categorías.</li>
+<li>Interpretar patrones en la distribución.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear un gráfico de dispersión entre Glucosa y Edad</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>,<span class="dv">5</span>))</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>plt.scatter(df[<span class="st">&#39;Age&#39;</span>], df[<span class="st">&#39;Glucose&#39;</span>], alpha<span class="op">=</span><span class="fl">0.5</span>, color<span class="op">=</span><span class="st">&#39;green&#39;</span>)</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Edad&#39;</span>)</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Glucosa&#39;</span>)</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Relación entre Edad y Glucosa&#39;</span>)</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/8d5b0162b3cccdb83a428316170bce52e7600ec2.png" /></p>
+</div>
+</div>
+<section
+id="-análisis-del-gráfico-de-dispersión-relación-entre-edad-y-glucosa"
+class="cell markdown">
+<h1>📊 Análisis del Gráfico de Dispersión: Relación entre Edad y
+Glucosa</h1>
+<p>Este gráfico representa la relación entre la <strong>edad</strong> y
+los niveles de <strong>glucosa</strong> en la población analizada.</p>
+<hr />
+<h2 id="-qué-es-un-gráfico-de-dispersión">🔹 ¿Qué es un gráfico de
+dispersión?</h2>
+<p>Un <strong>gráfico de dispersión</strong> se utiliza para visualizar
+la relación entre dos variables numéricas. Cada punto representa una
+observación individual en el dataset.</p>
+<p><strong>Principios clave:</strong></p>
+<ul>
+<li><strong>Patrón ascendente</strong> → Indica una correlación
+positiva.</li>
+<li><strong>Patrón descendente</strong> → Indica una correlación
+negativa.</li>
+<li><strong>Distribución dispersa sin forma clara</strong> → Indica una
+correlación baja o inexistente.</li>
+</ul>
+<hr />
+<h2 id="-análisis-del-gráfico">🔍 <strong>Análisis del
+gráfico</strong></h2>
+<h3 id="1️⃣-distribución-de-los-datos">1️⃣ <strong>Distribución de los
+datos</strong></h3>
+<ul>
+<li>La mayoría de los puntos se concentran en edades <strong>entre 20 y
+50 años</strong> con valores de glucosa <strong>entre 75 y 125
+mg/dL</strong>.</li>
+<li>A medida que la edad avanza, los valores de glucosa parecen
+dispersarse más.</li>
+</ul>
+<h3 id="2️⃣-existe-una-correlación-clara">2️⃣ <strong>¿Existe una
+correlación clara?</strong></h3>
+<ul>
+<li>Este gráfico <strong>no muestra una tendencia lineal clara</strong>.
+Por lo que un gráfico de lineas sería más útil.</li>
+<li>Esto sugiere que la relación entre edad y glucosa <strong>no es
+fuerte ni directa</strong>.</li>
+<li>Sin embargo, se observa que algunos valores extremos de glucosa se
+presentan con mayor frecuencia en edades avanzadas (Ejemplo 40).</li>
+</ul>
+<h3 id="3️⃣-posibles-interpretaciones">3️⃣ <strong>Posibles
+interpretaciones</strong></h3>
+<ul>
+<li><strong>Personas más jóvenes (20-40 años)</strong> tienden a tener
+glucosa más estable.</li>
+<li><strong>Personas mayores (&gt;50 años)</strong> presentan una mayor
+variabilidad en los niveles de glucosa.</li>
+<li>Esto puede deberse a <strong>factores de salud
+individuales</strong>, como la presencia de diabetes o hábitos de
+vida.</li>
+</ul>
+<hr />
+</section>
+<section id="-bloque-6-gráficos-de-líneas" class="cell markdown">
+<h2>📊 Bloque 6: Gráficos de Líneas</h2>
+<p>Los gráficos de líneas se usan para representar tendencias en datos
+continuos.</p>
+<p><strong>Principios básicos:</strong></p>
+<ul>
+<li>Útil para visualizar cambios en el tiempo.</li>
+<li>Suavizar líneas cuando sea necesario.</li>
+<li>Evitar el uso en variables categóricas.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ordenar datos por edad y graficar la media de glucosa</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>df_sorted <span class="op">=</span> df.groupby(<span class="st">&#39;Age&#39;</span>)[<span class="st">&#39;Glucose&#39;</span>].mean()</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico de líneas</span></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">5</span>))</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>plt.plot(df_sorted.index, df_sorted.values, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;-&#39;</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Edad&#39;</span>)</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Media de Glucosa&#39;</span>)</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Glucosa Promedio por Edad&#39;</span>)</span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/64795a85f7e8ca89d4a6866aa2c4cb7e4a9251e5.png" /></p>
+</div>
+</div>
+<section id="-interpretación-del-gráfico-glucosa-promedio-por-edad"
+class="cell markdown">
+<h1>📈 Interpretación del Gráfico: Glucosa Promedio por Edad</h1>
+<p>Este gráfico de líneas muestra la <strong>relación entre la edad y la
+media de glucosa</strong> en la población analizada.</p>
+<hr />
+<h2 id="-observaciones-clave">🔎 <strong>Observaciones
+Clave</strong></h2>
+<h3 id="1️⃣-tendencia-general-crecimiento-inicial">1️⃣ <strong>Tendencia
+General (Crecimiento Inicial)</strong></h3>
+<ul>
+<li>A medida que la edad aumenta de <strong>20 a 50 años</strong>, la
+<strong>media de glucosa tiende a aumentar</strong>.</li>
+<li>Esto sugiere que los niveles de glucosa son <strong>relativamente
+más bajos en personas jóvenes</strong> y aumentan con la edad.</li>
+</ul>
+<h3 id="2️⃣-mayor-variabilidad-después-de-los-50-años">2️⃣ <strong>Mayor
+Variabilidad después de los 50 años</strong></h3>
+<ul>
+<li>Después de los <strong>50 años</strong>, la glucosa promedio
+presenta <strong>altibajos más pronunciados</strong>, lo que indica una
+<strong>mayor variabilidad</strong> en los niveles de glucosa en esta
+población.</li>
+<li>Esto podría deberse a que <strong>algunas personas mayores tienen
+diabetes</strong>, mientras que otras mantienen niveles más
+normales.</li>
+</ul>
+<h3 id="3️⃣-picos-y-caídas-extremos">3️⃣ <strong>Picos y Caídas
+Extremos</strong></h3>
+<ul>
+<li>Se observan picos altos alrededor de los <strong>50-60
+años</strong>, donde la glucosa promedio supera los <strong>160
+mg/dL</strong>, indicando que algunos grupos dentro de esa edad podrían
+tener un mayor riesgo de diabetes.</li>
+<li>También hay <strong>caídas bruscas</strong>, lo que podría deberse a
+<strong>muestras más pequeñas en ciertos grupos de edad</strong>,
+causando fluctuaciones más drásticas.</li>
+</ul>
+<h3 id="4️⃣-disminución-y-fluctuaciones-en-la-vejez">4️⃣
+<strong>Disminución y Fluctuaciones en la Vejez</strong></h3>
+<ul>
+<li>Entre los <strong>60 y 80 años</strong>, la glucosa sigue siendo
+variable, pero con valores más dispersos.</li>
+<li>Esto podría reflejar que algunas personas con diabetes ya están en
+tratamiento, mientras que otras tienen niveles descontrolados.</li>
+</ul>
+<hr />
+</section>
+<section
+id="️-actividad-análisis-del-gráfico-de-glucosa-promedio-por-edad"
+class="cell markdown">
+<h1>✏️ Actividad: Análisis del Gráfico de Glucosa Promedio por Edad</h1>
+<h2 id="-objetivo">📌 Objetivo:</h2>
+<p>Analizar el comportamiento de la glucosa en distintas edades y
+responder preguntas clave para interpretar los datos.</p>
+<hr />
+<h2 id="-instrucciones">🔍 <strong>Instrucciones</strong></h2>
+<ol>
+<li>Observa detenidamente el gráfico <strong>"Glucosa Promedio por
+Edad"</strong>.</li>
+<li>Reflexiona sobre las variaciones en los valores y la relación entre
+la edad y la glucosa.</li>
+<li><strong>Responde las siguientes preguntas en la celda de Markdown
+debajo del código.</strong></li>
+</ol>
+<hr />
+<h2 id="-preguntas-de-análisis--responde-aquí">📊 <strong>Preguntas de
+Análisis</strong> 📝 <strong>Responde aquí</strong></h2>
+<p>(Escribe tus respuestas en esta celda de Markdown)</p>
+<p>1️⃣ ¿Por qué crees que la glucosa aumenta con la edad? ¿Qué factores
+biológicos o de estilo de vida podrían influir?<br />
+Por menor eficacia de la insulina, menos actividad física y más grasa
+corporal. 2️⃣ ¿Por qué la variabilidad en los niveles de glucosa es mayor
+después de los 50 años? ¿Qué puede estar afectando estos cambios?<br />
+Por cambios hormonales, pérdida de masa muscular y uso de medicamentos.
+3️⃣ ¿Cómo interpretarías los picos más altos en los valores de glucosa?
+¿A qué grupo de personas podría representar?<br />
+Pueden indicar prediabetes, diabetes no controlada 4️⃣ ¿Cuáles son las
+posibles causas de las caídas bruscas en la glucosa a edades
+avanzadas?<br />
+Medicamentos para la diabetes, desnutrición o enfermedades crónicas. 5️⃣
+¿Qué recomendaciones harías para la prevención de la diabetes basándote
+en este análisis?<br />
+Buena alimentación, ejercicio regular, controlar el peso y chequeos
+médicos. ---</p>
+</section>
+<section id="-bloque-7-mapa-de-calor-con-seaborn" class="cell markdown">
+<h1>🔥 Bloque 7: Mapa de Calor con Seaborn</h1>
+<p>Los mapas de calor permiten visualizar matrices de correlación o
+valores numéricos en una escala de colores.</p>
+<p><strong>Principios básicos:</strong></p>
+<ul>
+<li>Usar una escala de colores adecuada.</li>
+<li>Incluir etiquetas para facilitar la interpretación.</li>
+<li>Evitar el uso excesivo en datasets muy grandes.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cargar el dataset de nuevo para evitar errores</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;diabetes2.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="116">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># %pip install seaborn</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular la matriz de correlación</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>correlacion <span class="op">=</span> df.corr()</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el mapa de calor</span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlacion, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&#39;.2f&#39;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mapa de Calor de la Matriz de Correlación&#39;</span>)</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/8f61a74885c5b3e916126bdf6b7569469055d0a6.png" /></p>
+</div>
+</div>
+<section id="-interpretación-del-mapa-de-calor-de-correlaciones"
+class="cell markdown">
+<h1>📊 Interpretación del Mapa de Calor de Correlaciones</h1>
+<p>El mapa de calor representa la <strong>matriz de correlación</strong>
+entre las variables del dataset.</p>
+<h2 id="-cómo-interpretar-los-valores">🔹 ¿Cómo interpretar los
+valores?</h2>
+<ul>
+<li><strong>Valores cercanos a 1 (rojo oscuro)</strong> →
+<strong>Correlación positiva fuerte</strong>
+<ul>
+<li>Cuando una variable aumenta, la otra también lo hace.</li>
+</ul></li>
+<li><strong>Valores cercanos a -1 (azul oscuro)</strong> →
+<strong>Correlación negativa fuerte</strong>
+<ul>
+<li>Cuando una variable aumenta, la otra disminuye.</li>
+</ul></li>
+<li><strong>Valores cercanos a 0 (azul claro)</strong> →
+<strong>Correlación débil o inexistente</strong>
+<ul>
+<li>No hay una relación clara entre las variables.</li>
+</ul></li>
+</ul>
+<hr />
+<h2 id="-observaciones-clave">🔎 <strong>Observaciones
+clave:</strong></h2>
+<h3 id="1️⃣-glucosa-vs-outcome-047">1️⃣ <strong>Glucosa vs. Outcome
+(0.47)</strong></h3>
+<ul>
+<li>Existe una <strong>correlación moderada positiva</strong> entre los
+niveles de <strong>glucosa</strong> y la <strong>presencia de
+diabetes</strong>.</li>
+<li><strong>Conclusión:</strong> A medida que <strong>aumenta la
+glucosa</strong>, también <strong>aumenta la probabilidad de ser
+diagnosticado con diabetes</strong>.</li>
+</ul>
+<h3 id="2️⃣-edad-vs-outcome-024">2️⃣ <strong>Edad vs. Outcome
+(0.24)</strong></h3>
+<ul>
+<li>Hay una <strong>correlación positiva débil</strong>, lo que sugiere
+que la diabetes es <strong>más frecuente en personas mayores</strong>,
+aunque la relación no es muy fuerte.</li>
+</ul>
+<h3 id="3️⃣-bmi-índice-de-masa-corporal-vs-outcome-029">3️⃣ <strong>BMI
+(Índice de Masa Corporal) vs. Outcome (0.29)</strong></h3>
+<ul>
+<li>Existe una <strong>correlación positiva moderada</strong>, lo que
+implica que <strong>a mayor índice de masa corporal (BMI), mayor es la
+probabilidad de tener diabetes</strong>.</li>
+</ul>
+<h3 id="4️⃣-edad-vs-número-de-embarazos-054">4️⃣ <strong>Edad vs. Número
+de Embarazos (0.54)</strong></h3>
+<ul>
+<li>Hay una <strong>correlación positiva fuerte</strong> entre la
+<strong>edad</strong> y el <strong>número de embarazos</strong>.</li>
+<li><strong>Explicación:</strong> Esto es esperable, ya que las mujeres
+mayores han tenido <strong>más tiempo</strong> para embarazarse.</li>
+</ul>
+<h3 id="5️⃣-glucosa-vs-insulina-033">5️⃣ <strong>Glucosa vs. Insulina
+(0.33)</strong></h3>
+<ul>
+<li>Existe una <strong>correlación moderada</strong> entre la
+<strong>glucosa</strong> y la <strong>insulina</strong>, lo que puede
+estar relacionado con la respuesta del cuerpo a los niveles de azúcar en
+sangre.</li>
+</ul>
+<h3 id="6️⃣-relaciones-débiles-valores-cercanos-a-0">6️⃣
+<strong>Relaciones Débiles (valores cercanos a 0)</strong></h3>
+<ul>
+<li>Variables como <strong>SkinThickness (Grosor de la Piel)</strong>
+tienen <strong>una correlación muy baja con la diabetes
+(0.07)</strong>.</li>
+<li>Otras correlaciones bajas incluyen <strong>BloodPressure
+(0.07)</strong> e <strong>Insulin (0.13)</strong>, lo que indica que
+<strong>no son buenos predictores de la enfermedad</strong>.</li>
+</ul>
+<hr />
+<p>Las demás variables podrían contribuir, pero con menor impacto en el
+diagnóstico.</p>
+<hr />
+<p>💡 <strong>¿Qué sigue?</strong><br />
+Si queremos predecir la diabetes, podemos probar modelos de Machine
+Learning priorizando las variables más importantes y descartando
+aquellas con correlaciones débiles. 🚀</p>
+</section>
+<section id="️-actividad-análisis-del-mapa-de-calor"
+class="cell markdown">
+<h1>✏️ Actividad: Análisis del Mapa de Calor</h1>
+<h2 id="-objetivo">📌 Objetivo:</h2>
+<p>Analizar la matriz de correlación y responder preguntas clave sobre
+las variables más relevantes en la predicción de la diabetes.</p>
+<hr />
+<h2 id="-instrucciones">🔍 <strong>Instrucciones</strong></h2>
+<ol>
+<li>Ejecuta el código que genera el <strong>Mapa de Calor</strong> en el
+dataset <code>diabetes2.csv</code>.</li>
+<li>Observa los valores de correlación entre las variables.</li>
+<li><strong>Responde las siguientes preguntas en la celda de Markdown
+debajo del código.</strong></li>
+</ol>
+<hr />
+<h2 id="-preguntas-de-análisis--responde-aquí">📊 <strong>Preguntas de
+Análisis</strong> 📝 <strong>Responde aquí</strong></h2>
+<p>(Escribe tus respuestas en esta celda de Markdown) 1️⃣ ¿Cuál es la
+variable que tiene la correlación más alta con la <strong>diabetes
+(<code>Outcome</code>)</strong>? ¿Qué significa esto en términos
+prácticos?<br />
+Que los altos niveles de glucosa estan relacionados con la presencia de
+diabetes 2️⃣ ¿Cómo afecta la edad a la diabetes según la matriz de
+correlación? ¿Crees que es un factor importante en la predicción de la
+enfermedad?<br />
+La edad influye pero no creo que sea el factor mas determinante 3️⃣ ¿Qué
+puedes concluir sobre la relación entre <strong>BMI (Índice de Masa
+Corporal)</strong> y la diabetes?<br />
+Un mayor bmi significa mas riesgo de diabetes 4️⃣ ¿Hay alguna variable en
+la matriz que <strong>NO parezca ser un buen predictor</strong> de la
+diabetes? Justifica tu respuesta.<br />
+Dudo que su impacto sea tan importante ya que tienen correlaciones muy
+bajas 5️⃣ Si estuvieras diseñando un modelo de Machine Learning para
+predecir la diabetes, ¿qué <strong>tres variables
+seleccionarías</strong> como las más importantes? Explica tu
+elección.<br />
+Glucosa Bmi Edad Ya que tienen las correlaciones mas altas con la
+diabetes</p>
+<hr />
+</section>
+<section id="-bloque-9-visualización-de-histogramas"
+class="cell markdown">
+<h2>📊 Bloque 9: Visualización de Histogramas</h2>
+<p>Los histogramas permiten visualizar la <strong>distribución de los
+datos</strong> y entender la variabilidad de cada variable en el
+dataset.</p>
+<p><strong>Principios clave:</strong></p>
+<ul>
+<li>Utilizar un número adecuado de <strong>bins</strong> (intervalos)
+para representar los datos sin perder información.</li>
+<li>Incluir una <strong>línea de densidad
+(<code>kde=True</code>)</strong> para facilitar la interpretación.</li>
+<li>Excluir variables categóricas (<code>Outcome</code> e
+<code>InsulinKnown</code>) para que los histogramas sean adecuados.</li>
+<li>Usar un <strong>gráfico de conteo (<code>countplot</code>)</strong>
+para visualizar variables categóricas como
+<code>InsulinKnown</code>.</li>
+</ul>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar las columnas que no deben incluirse en los histogramas</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>columns_to_plot <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> diabetes_cleaned.columns <span class="cf">if</span> col <span class="kw">not</span> <span class="kw">in</span> [<span class="st">&#39;Outcome&#39;</span>, <span class="st">&#39;InsulinKnown&#39;</span>]]</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Número de columnas para la visualización de histogramas</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>num_cols <span class="op">=</span> <span class="dv">2</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular el número de filas necesarias</span></span>
+<span id="cb52-8"><a href="#cb52-8" aria-hidden="true" tabindex="-1"></a>num_rows <span class="op">=</span> (<span class="bu">len</span>(columns_to_plot) <span class="op">+</span> num_cols) <span class="op">//</span> num_cols</span>
+<span id="cb52-9"><a href="#cb52-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-10"><a href="#cb52-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>, num_rows <span class="op">*</span> <span class="dv">6</span>))  <span class="co"># Ajustar el tamaño para acomodar los gráficos</span></span>
+<span id="cb52-11"><a href="#cb52-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-12"><a href="#cb52-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Generar histogramas para cada columna</span></span>
+<span id="cb52-13"><a href="#cb52-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, column <span class="kw">in</span> <span class="bu">enumerate</span>(columns_to_plot):</span>
+<span id="cb52-14"><a href="#cb52-14" aria-hidden="true" tabindex="-1"></a>    plt.subplot(num_rows, num_cols, i <span class="op">+</span> <span class="dv">1</span>)</span>
+<span id="cb52-15"><a href="#cb52-15" aria-hidden="true" tabindex="-1"></a>    sns.histplot(data<span class="op">=</span>diabetes_cleaned, x<span class="op">=</span>column, kde<span class="op">=</span><span class="va">True</span>, bins<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb52-16"><a href="#cb52-16" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Distribution of </span><span class="sc">{</span>column<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb52-17"><a href="#cb52-17" aria-hidden="true" tabindex="-1"></a>    sns.despine()</span>
+<span id="cb52-18"><a href="#cb52-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-19"><a href="#cb52-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-20"><a href="#cb52-20" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()  <span class="co"># Ajustar el diseño de los subgráficos</span></span>
+<span id="cb52-21"><a href="#cb52-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+</div>
+<section
+id="-interpretación-de-los-histogramas-de-variables-del-dataset"
+class="cell markdown">
+<h1>📊 Interpretación de los Histogramas de Variables del Dataset</h1>
+<p>Los histogramas muestran la <strong>distribución de los
+datos</strong> en las variables del dataset, permitiendo identificar su
+comportamiento y patrones clave.</p>
+<hr />
+<h2 id="-análisis-de-las-variables">🔍 <strong>Análisis de las
+Variables</strong></h2>
+<h3 id="1️⃣-pregnancies-número-de-embarazos">1️⃣ <strong>Pregnancies
+(Número de Embarazos)</strong></h3>
+<ul>
+<li>Distribución <strong>sesgada a la derecha</strong> (asimétrica
+positiva).</li>
+<li>La mayoría de las mujeres han tenido pocos embarazos (0-2), pero hay
+algunas con más de 10.</li>
+<li>Este sesgo es esperado, ya que los embarazos múltiples son menos
+comunes.</li>
+</ul>
+<h4
+id="-por-qué-la-distribución-de-pregnancies-está-sesgada-a-la-derecha">📊
+¿Por qué la distribución de "Pregnancies" está sesgada a la
+derecha?</h4>
+<p>Cuando hablamos de <strong>sesgo en una distribución</strong>, nos
+referimos a <strong>la dirección de la cola de la distribución</strong>,
+<strong>no</strong> a dónde vemos más datos en el gráfico.</p>
+<hr />
+<h4 id="-regla-para-interpretar-el-sesgo-de-una-distribución">🔍
+<strong>Regla para interpretar el sesgo de una
+distribución</strong></h4>
+<ul>
+<li><strong>Sesgo a la derecha (positivo):</strong>
+<ul>
+<li>La <strong>cola de la distribución</strong> se extiende hacia
+valores <strong>altos</strong> (derecha del eje X).<br />
+</li>
+<li>La mayoría de los datos están concentrados en valores bajos, pero
+algunos valores más grandes (outliers) crean una cola larga hacia la
+derecha.<br />
+</li>
+<li><strong>Ejemplo:</strong> Ingresos de una población (pocos ricos con
+salarios muy altos crean la cola a la derecha).</li>
+</ul></li>
+<li><strong>Sesgo a la izquierda (negativo):</strong>
+<ul>
+<li>La <strong>cola de la distribución</strong> se extiende hacia
+valores <strong>bajos</strong> (izquierda del eje X).<br />
+</li>
+<li>La mayoría de los datos están en valores altos, pero algunos valores
+pequeños crean una cola larga hacia la izquierda.<br />
+</li>
+<li><strong>Ejemplo:</strong> Edad de jubilación (casi todos se jubilan
+alrededor de 60-65 años, pero hay algunos casos tempranos creando la
+cola izquierda).</li>
+</ul></li>
+<li><strong>Distribución Normal (Sin Sesgo)</strong>
+<ul>
+<li>También llamada <strong>distribución gaussiana</strong> o
+<strong>campana de Gauss</strong>.</li>
+<li>La <strong>media, mediana y moda</strong> están alineadas en el
+centro.</li>
+<li>La gráfica es <strong>simétrica</strong>, es decir, la cantidad de
+datos a la izquierda y derecha de la media es similar.</li>
+<li><strong>Ejemplo:</strong> Altura de las personas en una
+población.</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="2️⃣-glucose-glucosa">2️⃣ <strong>Glucose (Glucosa)</strong></h3>
+<ul>
+<li>Distribución <strong>similar a una normal</strong> pero con ligera
+asimetría hacia la derecha.</li>
+<li>Hay más casos en el rango de <strong>90-130 mg/dL</strong>, pero
+algunos valores extremos superan los <strong>180 mg/dL</strong>, lo que
+puede indicar posibles casos de diabetes.</li>
+<li>La presencia de valores altos sugiere que algunas personas tienen
+<strong>hiperglucemia</strong>.</li>
+</ul>
+<h3 id="3️⃣-bloodpressure-presión-arterial">3️⃣ <strong>BloodPressure
+(Presión Arterial)</strong></h3>
+<ul>
+<li>Distribución aproximadamente <strong>normal</strong>.</li>
+<li>Se observa un rango central entre <strong>60-90 mmHg</strong>, lo
+cual es esperable en la población general.</li>
+<li>Pocos valores extremos, lo que indica que la mayoría de los
+pacientes tienen presión arterial dentro del rango típico.</li>
+</ul>
+<h3 id="4️⃣-skinthickness-grosor-del-pliegue-cutáneo">4️⃣
+<strong>SkinThickness (Grosor del Pliegue Cutáneo)</strong></h3>
+<ul>
+<li>Distribución <strong>sesgada a la derecha</strong>.</li>
+<li>La mayoría de los valores están por debajo de <strong>40
+mm</strong>, pero hay algunos valores atípicos mayores a <strong>60
+mm</strong>.</li>
+<li>Puede haber valores faltantes o errores en el dataset.</li>
+</ul>
+<h3 id="5️⃣-insulin-insulina-en-sangre">5️⃣ <strong>Insulin (Insulina en
+Sangre)</strong></h3>
+<ul>
+<li>Distribución <strong>muy sesgada a la derecha</strong> con una gran
+cantidad de valores en 0.</li>
+<li>Indica que muchas personas tienen niveles bajos de insulina o que
+existen datos faltantes en la columna.</li>
+<li>Este sesgo sugiere que se debería tratar la variable antes de su uso
+en modelos de Machine Learning.</li>
+</ul>
+<h3 id="6️⃣-bmi-índice-de-masa-corporal">6️⃣ <strong>BMI (Índice de Masa
+Corporal)</strong></h3>
+<ul>
+<li>Distribución <strong>aproximadamente normal</strong>, pero con
+ligera asimetría hacia la derecha.</li>
+<li>Valores entre <strong>20 y 40</strong> son los más comunes.</li>
+<li>Algunos valores altos (&gt;50) podrían ser outliers.</li>
+</ul>
+<h3 id="7️⃣-diabetespedigreefunction-historial-familiar-de-diabetes">7️⃣
+<strong>DiabetesPedigreeFunction (Historial Familiar de
+Diabetes)</strong></h3>
+<ul>
+<li>Distribución <strong>sesgada a la derecha</strong>.</li>
+<li>La mayoría de las personas tienen un puntaje de <strong>riesgo
+genético</strong> bajo (0.0 - 0.5), pero algunos presentan valores altos
+(&gt;1.5), lo que sugiere mayor predisposición a la diabetes.</li>
+</ul>
+<h3 id="8️⃣-age-edad">8️⃣ <strong>Age (Edad)</strong></h3>
+<ul>
+<li>Distribución <strong>sesgada a la derecha</strong>.</li>
+<li>Mayor concentración de pacientes entre <strong>20 y 40
+años</strong>, con menor cantidad de pacientes mayores de 60.</li>
+<li>Esto podría indicar que el dataset tiene más personas jóvenes y de
+mediana edad, y menos adultos mayores.</li>
+</ul>
+<hr />
+</section>
+<section id="️-actividad-análisis-de-histogramas-y-distribución-de-datos"
+class="cell markdown">
+<h1>✏️ Actividad: Análisis de Histogramas y Distribución de Datos</h1>
+<h2 id="-objetivo">📌 Objetivo:</h2>
+<p>Analizar la distribución de las variables en el dataset y reflexionar
+sobre su impacto en el análisis de datos.</p>
+<hr />
+<h2 id="-instrucciones">🔍 <strong>Instrucciones</strong></h2>
+<ol>
+<li>Observa detenidamente los histogramas de cada variable.</li>
+<li>Analiza su forma y distribuciones (asimétricas, normales, con
+valores atípicos, etc.).</li>
+<li><strong>Responde las siguientes preguntas en esta celda de
+Markdown</strong></li>
+</ol>
+<hr />
+<h2 id="-preguntas-de-análisis">📊 <strong>Preguntas de
+Análisis</strong></h2>
+<p>1️⃣ ¿Qué variables muestran una distribución aproximadamente
+normal?<br />
+BloodPressure y BMI muestran distribuciones cercanas a una normal. 2️⃣
+¿Cuáles tienen una distribución sesgada a la derecha? ¿Qué significa
+esto en términos de datos?<br />
+Pregnancies, Insulin y DiabetesPedigreeFunction están sesgadas a la
+derecha, lo que indica muchos valores bajos y pocos valores muy altos.
+3️⃣ ¿Cómo interpretarías la gran cantidad de valores en 0 en la variable
+<code>Insulin</code>?<br />
+Podrían ser datos faltantes codificados como 0 o personas sin medición
+de insulina, lo cual afecta el análisis. 4️⃣ ¿Cuál es la variable con
+mayor dispersión en los datos? ¿Cómo podríamos manejar esta variabilidad
+en un análisis predictivo?<br />
+Insulin. Para manejarlo, se pueden usar transformaciones logarítmicas o
+técnicas de normalización 5️⃣ ¿Qué conclusiones puedes obtener sobre la
+relación entre la edad y la prevalencia de diabetes, basándote en el
+histograma de <code>Age</code>?<br />
+El histograma de Age muestra que la prevalencia de diabetes aumenta con
+la edad, especialmente después de los 40 años. ---</p>
+</section>
+<section id="-bonus-visualización-de-outliers-con-boxplots"
+class="cell markdown">
+<h2>🎁 BONUS: Visualización de Outliers con Boxplots</h2>
+<p>Los <strong>boxplots</strong> (diagramas de caja) son una herramienta
+útil para visualizar la distribución de los datos y detectar
+<strong>outliers</strong> (valores atípicos).</p>
+<p><strong>Principios clave:</strong></p>
+<ul>
+<li>El <strong>cuadro central</strong> representa el <strong>rango
+intercuartil (IQR)</strong>, donde se encuentra el 50% de los
+datos.</li>
+<li>La <strong>línea dentro del cuadro</strong> representa la
+<strong>mediana</strong>.</li>
+<li>Los <strong>bigotes</strong> indican la dispersión normal de los
+datos.</li>
+<li>Los <strong>puntos fuera de los bigotes</strong> son
+<strong>outliers</strong> (valores atípicos).</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select numerical columns</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Importar seaborn ya que no estaba </span></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Definiendo variable diabetes cleaned</span></span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>diabetes_cleaned <span class="op">=</span> df.loc[</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>    (df[[<span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;BMI&#39;</span>]] <span class="op">!=</span> <span class="dv">0</span>).<span class="bu">all</span>(axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a>numerical_columns <span class="op">=</span> [<span class="st">&#39;Pregnancies&#39;</span>, <span class="st">&#39;Glucose&#39;</span>, <span class="st">&#39;BloodPressure&#39;</span>, <span class="st">&#39;SkinThickness&#39;</span>, <span class="st">&#39;BMI&#39;</span>,</span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>       <span class="st">&#39;DiabetesPedigreeFunction&#39;</span>, <span class="st">&#39;Age&#39;</span>]</span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear un gráfico de subplots de 4x2 con tamaño de figura 18x22 pulgadas</span></span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">4</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">18</span>, <span class="dv">22</span>))</span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Aplanar el array de ejes para facilitar la iteración</span></span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> ax.flatten()</span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-16"><a href="#cb53-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterar sobre las columnas numéricas y crear un boxplot para cada una</span></span>
+<span id="cb53-17"><a href="#cb53-17" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> idx, column <span class="kw">in</span> <span class="bu">enumerate</span>(numerical_columns):</span>
+<span id="cb53-18"><a href="#cb53-18" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(ax<span class="op">=</span>ax[idx], x<span class="op">=</span>diabetes_cleaned[column])</span>
+<span id="cb53-19"><a href="#cb53-19" aria-hidden="true" tabindex="-1"></a>    ax[idx].set_title(column)</span>
+<span id="cb53-20"><a href="#cb53-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-21"><a href="#cb53-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Eliminar el subplot vacío (octavo gráfico no usado)</span></span>
+<span id="cb53-22"><a href="#cb53-22" aria-hidden="true" tabindex="-1"></a>fig.delaxes(ax[<span class="op">-</span><span class="dv">1</span>])</span>
+<span id="cb53-23"><a href="#cb53-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-24"><a href="#cb53-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustar diseño para evitar superposición</span></span>
+<span id="cb53-25"><a href="#cb53-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb53-26"><a href="#cb53-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-27"><a href="#cb53-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar el gráfico</span></span>
+<span id="cb53-28"><a href="#cb53-28" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_50bc3abafbc442259fa66f928dc2b79e/86d14d206da85974c1b1cac9bf67f0c2919160c2.png" /></p>
+</div>
+</div>
+<section id="️-actividad-bonus-análisis-de-outliers-con-boxplots"
+class="cell markdown">
+<h3>✏️ Actividad BONUS: Análisis de Outliers con Boxplots</h3>
+<p>Ejecuta el código anterior para visualizar los boxplots de las
+variables en el dataset <code>diabetes_cleaned</code>. Luego, responde
+las siguientes preguntas:</p>
+<p>1️⃣ ¿Qué variable tiene más <strong>outliers</strong>? ¿Por qué crees
+que sucede esto? DiabetesPedigreeFunction, por su alta variabilidad
+genética 2️⃣ ¿Cómo interpretarías los outliers en la variable
+<code>Insulin</code>? ¿Deberían ser eliminados o tratados de otra
+manera? Podrían ser casos clínicos válidos. Mejor tratarlos que
+eliminarlos. 3️⃣ ¿Qué variables muestran una distribución más simétrica
+sin valores atípicos? Glucose y SkinThickness 4️⃣ Si estuvieras
+preparando este dataset para un modelo de Machine Learning, ¿qué harías
+con los outliers? Revisar si afectan el modelo. Si sí, ajustarlos o
+eliminarlos; si no, dejarlos. 💡 <strong>Escribe tus respuestas en la
+celda siguiente y justifica con base en los gráficos
+generados.</strong></p>
+</section>
+<section id="bonus-x2-solucionar-exportación-de-html"
+class="cell markdown">
+<h3>Bonus x2 Solucionar exportación de html</h3>
+</section>
+</body>
+</html>
